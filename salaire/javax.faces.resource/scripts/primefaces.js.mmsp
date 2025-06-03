@@ -1,0 +1,71 @@
+/* traduction en locale fr */
+PrimeFaces.locales['fr'] = {
+	closeText : 'Fermer',
+	prevText : 'Pr\u00E9c\u00E9dent',
+	nextText : 'Suivant',
+	monthNames : [ 'Janvier', 'F\u00E9vrier', 'Mars', 'Avril', 'Mai', 'Juin',
+			'Juillet', 'Ao\u00FBt', 'Septembre', 'Octobre', 'Novembre',
+			'D\u00E9cembre' ],
+	monthNamesShort : [ 'Jan', 'F\u00E9v', 'Mar', 'Avr', 'Mai', 'Jun', 'Jul',
+			'Ao\u00FB', 'Sep', 'Oct', 'Nov', 'D\u00E9c' ],
+	dayNames : [ 'Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi',
+			'Samedi' ],
+	dayNamesShort : [ 'Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam' ],
+	dayNamesMin : [ 'Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa' ],
+	weekHeader : 'Semaine',
+	firstDay : 1,
+	isRTL : false,
+	showMonthAfterYear : false,
+	yearSuffix : '',
+	timeOnlyTitle : 'Choisir l\'heure',
+	timeText : 'Heure',
+	hourText : 'Heures',
+	minuteText : 'Minutes',
+	secondText : 'Secondes',
+	currentText : 'Maintenant',
+	ampm : false,
+	month : 'Mois',
+	week : 'Semaine',
+	day : 'Jour',
+	allDayText : 'Toute la journ\u00E9e'
+};
+
+PrimeFaces.locales['ar'] = {
+	closeText : 'إغلق',
+	prevText : 'إلى الخلف',
+	nextText : 'إلى الأمام',
+	monthNames : [ 'يناير', 'فبراير', 'مارس', 'ابريل', 'مايو', 'يونيو',
+			'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر' ],
+	monthNamesShort : [ 'يناير', 'فبراير', 'مارس', 'ابريل', 'مايو', 'يونيو',
+			'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر' ],
+	dayNames : [ 'يوم الأحد‎', 'يوم الإثنين‎', 'يوم الثلاثاء‎',
+			'‏يوم الأَرْبعاء‎', '‏يوم الخَمِيس‎', 'يوم الجُمْعَة‎‎',
+			'يوم السَّبْت' ],
+	dayNamesShort : [ 'الأحد‎', 'الإثنين‎', 'الثلاثاء‎', 'الأَرْبعاء‎',
+			'الخَمِيس‎', 'الجُمْعَة‎‎', 'السَّبْت' ],
+	dayNamesMin : [ 'الأحد‎', 'الإثنين‎', 'الثلاثاء‎', 'الأَرْبعاء‎',
+			'الخَمِيس‎', 'الجُمْعَة‎‎', 'السَّبْت' ],
+	weekHeader : 'الأسبوع',
+	firstDay : 1,
+	isRTL : true,
+	showMonthAfterYear : false,
+	yearSuffix : '',
+	timeOnlyTitle : 'الوقت فقط',
+	timeText : 'الوقت',
+	hourText : 'ساعة',
+	minuteText : 'دقيقة',
+	secondText : 'ثانية',
+	currentText : 'بداية',
+	ampm : false,
+	month : 'الشهر',
+	week : 'الأسبوع',
+	day : 'اليوم',
+	allDayText : 'سا ئراليوم'
+};
+
+PrimeFaces.widget.Dialog.prototype.applyFocus = function() {
+	  var firstInput = this.jq.find(':not(:submit):not(:button):input:visible:enabled:first');
+	  if(!firstInput.hasClass('hasDatepicker')) {
+	      firstInput.focus();
+	  }
+	}

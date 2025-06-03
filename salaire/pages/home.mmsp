@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:s="http://jboss.org/seam/faces" lang="ar"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/theme.css.mmsp?ln=primefaces-omega"><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/fa/font-awesome.css.mmsp?ln=primefaces&amp;v=7.0"><script type="text/javascript" src="/salaire/javax.faces.resource/omnifaces.js.mmsp?ln=omnifaces"></script><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/styles/bootstrap.min.css.mmsp"><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/styles/font-ar.css.mmsp"><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/styles/style.css.mmsp"><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/styles/theme.css.mmsp"><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/styles/primefaces.css.mmsp"><script type="text/javascript" src="/salaire/javax.faces.resource/scripts/primefaces.deferred.js.mmsp"></script><link type="text/css" rel="stylesheet" href="/salaire/javax.faces.resource/components.css.mmsp?ln=primefaces&amp;v=7.0"><script type="text/javascript" src="/salaire/javax.faces.resource/jquery/jquery.js.mmsp?ln=primefaces&amp;v=7.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='ar';}</script><title>مماثلة إحتساب الأجرة</title><meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#005087"><meta name="application-name" content="مماثلة إحتساب الأجرة"><meta name="msapplication-TileColor" content="#2b5797"><meta name="msapplication-config" content="/salaire/javax.faces.resource/images/favicon/browserconfig.xml.mmsp"><link rel="apple-touch-icon-precomposed" sizes="57x57" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-57x57.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-114x114.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-72x72.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-144x144.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="60x60" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-60x60.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-120x120.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-76x76.png.mmsp?ln=images"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="/salaire/javax.faces.resource/favicon/apple-touch-icon-152x152.png.mmsp?ln=images"><link rel="apple-touch-icon" sizes="180x180" href="/salaire/javax.faces.resource/images/favicon/apple-touch-icon.png.mmsp"><link rel="icon" type="image/png" sizes="32x32" href="/salaire/javax.faces.resource/images/favicon/favicon-32x32.png.mmsp"><link rel="icon" type="image/png" sizes="16x16" href="/salaire/javax.faces.resource/images/favicon/favicon-16x16.png.mmsp"><link rel="manifest" href="/salaire/javax.faces.resource/manifest.json.mmsp"><link rel="mask-icon" href="/salaire/javax.faces.resource/images/favicon/safari-pinned-tab.svg.mmsp" color="#2b5797"><link rel="shortcut icon" href="/salaire/javax.faces.resource/images/favicon/favicon.ico.mmsp"><!-- Styles css --><!-- Custom Theme Style Override --><!-- Custom RTL Theme Style Override --><!-- 		&lt;h:outputStylesheet name="styles/default.css" /&gt; --><!-- Script js --><!-- Offline --><!-- 		&lt;o:deferredScript name="scripts/app.js" /&gt; --><!-- Global site tag (gtag.js) - Google Analytics --><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-109150057-2"></script><script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-109150057-2');
+		</script><link rel="shortcut icon" type="image/x-icon" href="/salaire/javax.faces.resource/general/logo.png.mmsp?ln=images"><link rel="manifest" href="/salaire/javax.faces.resource/manifest.json.mmsp"></head><body style="text-align:right">
+<form id="myForm" name="myForm" method="post" action="/salaire/pages/home.mmsp?localeCode=ar" dir="rtl" enctype="multipart/form-data">
+<input type="hidden" name="myForm" value="myForm">
+
+			<!-- inclusion du corps du template  -->
+
+	<header id="headerContainer">
+		<div>
+			<div class="block-custommenustopheadermenublock">
+
+				<nav class="top-nav-bar">
+					<div class="container">
+						<div class="top-nav-bar-elements-wp">
+							<div class="top-nav-bar-list"><div id="j_idt31" class="ui-outputpanel ui-widget">
+
+									<a class="headerText" href="./home.mmsp" title="الفرنسية">الفرنسية</a>
+
+									<a target="_blank" class="headerText" href="../help/ar/index.html" title="دليل الإستعمال">دليل الإستعمال</a>
+
+									<a class="headerText" href="mailto:simulation@mmsp.gov.ma?subject=[SALAIRE] :" title="إتصل بنا">إتصل بنا</a></div>
+
+							</div>
+						</div>
+					</div>
+				</nav>
+
+				<div class="main--menu-container container">
+					<div class="main--menu-logo">
+						<a href="https://www.mmsp.gov.ma/" target="_blank"> <img src="/salaire/javax.faces.resource/logo/ar.svg.mmsp?ln=images" alt="Logo"></a>
+					</div>
+					<div class="title-container menu--block-title">
+						<span><span class="titre">مماثلة إحتساب الأجرة</span>
+						</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+			<div class="fullPage">
+				<!-- inclusion du pied du template  --><div id="j_idt37" class="ui-outputpanel ui-widget"></div>
+
+	<div class="container ui-fluid"><img id="j_idt41" alt="" src="/salaire/javax.faces.resource/spacer/dot_clear.gif.mmsp?ln=primefaces&amp;v=7.0"><div id="salairePanelId" class="ui-panel ui-widget ui-widget-content ui-corner-all panel" data-widget="widget_salairePanelId"><div id="salairePanelId_content" class="ui-panel-content ui-widget-content"><table id="saisieDonneesBaseId" style="width:100%">
+<tbody>
+<tr>
+<td><div id="situationAdministrativeSortieId" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="margin-top:20px" data-widget="widget_situationAdministrativeSortieId"><div id="situationAdministrativeSortieId_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">الوضعية الإدارية</span></div><div id="situationAdministrativeSortieId_content" class="ui-panel-content ui-widget-content"><div id="j_idt42" class="ui-panelgrid ui-widget ui-panelgrid-blank"><div id="j_idt42_content" class="ui-panelgrid-content ui-widget-content ui-grid ui-grid-responsive"><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">الصنف</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="categorieSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="categorieSelectId_focus" name="categorieSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="categorieSelectId_input" name="categorieSelectId_input" tabindex="-1" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;categorieSelectId&quot;,e:&quot;valueChange&quot;,f:&quot;myForm&quot;,p:&quot;categorieSelectId&quot;,u:&quot;corpsSelectId cadreSelectId gradeSelectId echellonSelectId&quot;});"><option value="" selected="selected" data-escape="true">إختيار</option><option value="3" data-escape="true">قضاة المحاكم المالية</option><option value="4" data-escape="true">موظفو وزارة العدل</option><option value="5" data-escape="true">موظفو وزارة الشؤون الخارجية والتعاون</option><option value="6" data-escape="true">موظفو وزارة الداخلية</option><option value="8" data-escape="true">موظفو وزارة التربية الوطنية - التعليم العالي</option><option value="9" data-escape="true">موظفو وزارة التربية الوطنية- التعليم الاساسي والثانوي-</option><option value="10" data-escape="true">موظفو وزارة الصحة</option><option value="11" data-escape="true">موظفو وزارة المالية</option><option value="14" data-escape="true">الأمانة العامة للحكومة</option><option value="22" data-escape="true">موظفو وزارة الشؤون الثقافية</option><option value="23" data-escape="true">موظفو وزارة التشغيل</option><option value="25" data-escape="true">موظفو المندوبية العامة لإدارة السجون وإعادة الإدماج</option><option value="39" data-escape="true">الهيئات المشتركة بين الوزارات</option></select></div><label id="categorieSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="categorieSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="categorieSelectId_filter" name="categorieSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><table class="ui-selectonemenu-items ui-selectonemenu-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="إختيار"><td colspan="2">إختيار</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="قضاة المحاكم المالية"><td style="width:10%">05</td><td>قضاة المحاكم المالية</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة العدل"><td style="width:10%">06</td><td>موظفو وزارة العدل</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة الشؤون الخارجية والتعاون"><td style="width:10%">07</td><td>موظفو وزارة الشؤون الخارجية والتعاون</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة الداخلية"><td style="width:10%">08</td><td>موظفو وزارة الداخلية</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة التربية الوطنية - التعليم العالي"><td style="width:10%">10</td><td>موظفو وزارة التربية الوطنية - التعليم العالي</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة التربية الوطنية- التعليم الاساسي والثانوي-"><td style="width:10%">11</td><td>موظفو وزارة التربية الوطنية- التعليم الاساسي والثانوي-</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة الصحة"><td style="width:10%">12</td><td>موظفو وزارة الصحة</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة المالية"><td style="width:10%">13</td><td>موظفو وزارة المالية</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="الأمانة العامة للحكومة"><td style="width:10%">16</td><td>الأمانة العامة للحكومة</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة الشؤون الثقافية"><td style="width:10%">29</td><td>موظفو وزارة الشؤون الثقافية</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو وزارة التشغيل"><td style="width:10%">31</td><td>موظفو وزارة التشغيل</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="موظفو المندوبية العامة لإدارة السجون وإعادة الإدماج"><td style="width:10%">51</td><td>موظفو المندوبية العامة لإدارة السجون وإعادة الإدماج</td></tr><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="الهيئات المشتركة بين الوزارات"><td style="width:10%">99</td><td>الهيئات المشتركة بين الوزارات</td></tr></tbody></table></div></div></div><script id="categorieSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_categorieSelectId",{id:"categorieSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains",behaviors:{valueChange:function(ext,event) {PrimeFaces.ab({s:"categorieSelectId",e:"valueChange",f:"myForm",p:"categorieSelectId",u:"corpsSelectId cadreSelectId gradeSelectId echellonSelectId"},ext);}}});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">الهيئة</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="corpsSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="corpsSelectId_focus" name="corpsSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="corpsSelectId_input" name="corpsSelectId_input" tabindex="-1" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;corpsSelectId&quot;,e:&quot;valueChange&quot;,f:&quot;myForm&quot;,p:&quot;corpsSelectId&quot;,u:&quot;cadreSelectId gradeSelectId echellonSelectId specialiteGrid&quot;});"><option value="" selected="selected" data-escape="true">إختيار</option></select></div><label id="corpsSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="corpsSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="corpsSelectId_filter" name="corpsSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><table class="ui-selectonemenu-items ui-selectonemenu-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="إختيار"><td colspan="2">إختيار</td></tr></tbody></table></div></div></div><script id="corpsSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_corpsSelectId",{id:"corpsSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains",behaviors:{valueChange:function(ext,event) {PrimeFaces.ab({s:"corpsSelectId",e:"valueChange",f:"myForm",p:"corpsSelectId",u:"cadreSelectId gradeSelectId echellonSelectId specialiteGrid"},ext);}}});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">السلك أو الإطار</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="cadreSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="cadreSelectId_focus" name="cadreSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="cadreSelectId_input" name="cadreSelectId_input" tabindex="-1" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;cadreSelectId&quot;,e:&quot;valueChange&quot;,f:&quot;myForm&quot;,p:&quot;cadreSelectId&quot;,u:&quot;gradeSelectId echellonSelectId&quot;});"><option value="" selected="selected" data-escape="true">إختيار</option></select></div><label id="cadreSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="cadreSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="cadreSelectId_filter" name="cadreSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><table class="ui-selectonemenu-items ui-selectonemenu-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="إختيار"><td colspan="2">إختيار</td></tr></tbody></table></div></div></div><script id="cadreSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_cadreSelectId",{id:"cadreSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains",behaviors:{valueChange:function(ext,event) {PrimeFaces.ab({s:"cadreSelectId",e:"valueChange",f:"myForm",p:"cadreSelectId",u:"gradeSelectId echellonSelectId"},ext);}}});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">الدرجة</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="gradeSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="gradeSelectId_focus" name="gradeSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="gradeSelectId_input" name="gradeSelectId_input" tabindex="-1" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;gradeSelectId&quot;,e:&quot;valueChange&quot;,f:&quot;myForm&quot;,p:&quot;gradeSelectId&quot;,u:&quot;echellonSelectId&quot;});"><option value="" selected="selected" data-escape="true">إختيار</option></select></div><label id="gradeSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="gradeSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="gradeSelectId_filter" name="gradeSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><table class="ui-selectonemenu-items ui-selectonemenu-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="إختيار"><td colspan="2">إختيار</td></tr></tbody></table></div></div></div><script id="gradeSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_gradeSelectId",{id:"gradeSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains",behaviors:{valueChange:function(ext,event) {PrimeFaces.ab({s:"gradeSelectId",e:"valueChange",f:"myForm",p:"gradeSelectId",u:"echellonSelectId"},ext);}}});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">الرتبة-الرقم الإستدلالي</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="echellonSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="echellonSelectId_focus" name="echellonSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="echellonSelectId_input" name="echellonSelectId_input" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-escape="true">إختيار</option></select></div><label id="echellonSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="echellonSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="echellonSelectId_filter" name="echellonSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><ul id="echellonSelectId_items" class="ui-selectonemenu-items ui-selectonemenu-list ui-widget-content ui-widget ui-corner-all ui-helper-reset" role="listbox"><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="إختيار" tabindex="-1" role="option">إختيار</li></ul></div></div></div><script id="echellonSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_echellonSelectId",{id:"echellonSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains"});});</script></div></div></div></div><div id="j_idt78" class="ui-panelgrid ui-widget ui-panelgrid-blank"><div id="j_idt78_content" class="ui-panelgrid-content ui-widget-content ui-grid ui-grid-responsive"><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">الجهة</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="regionSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="regionSelectId_focus" name="regionSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="regionSelectId_input" name="regionSelectId_input" tabindex="-1" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;regionSelectId&quot;,e:&quot;valueChange&quot;,f:&quot;myForm&quot;,p:&quot;regionSelectId&quot;,u:&quot;localiteSelectId&quot;});"><option value="" selected="selected" data-escape="true">إختيار</option><option value="1" data-escape="true"> جهة طنجة تطوان الحسيمة</option><option value="2" data-escape="true"> جهة الشرق</option><option value="3" data-escape="true">جهة فاس مكناس</option><option value="4" data-escape="true"> جهة الرباط سلا القنيطرة</option><option value="5" data-escape="true"> جهة بني ملال خنيفرة</option><option value="6" data-escape="true"> جهة الدار البيضاء سطات</option><option value="7" data-escape="true"> جهة مراكش أسفي</option><option value="8" data-escape="true">جهة درعة تافيلالت</option><option value="9" data-escape="true">جهة سوس ماسة</option><option value="10" data-escape="true"> جهة كلميم واد نون</option><option value="11" data-escape="true"> جهة العيون الساقية الحمراء</option><option value="12" data-escape="true"> جهة الداخلة وادي الذهب</option></select></div><label id="regionSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="regionSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="regionSelectId_filter" name="regionSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><ul id="regionSelectId_items" class="ui-selectonemenu-items ui-selectonemenu-list ui-widget-content ui-widget ui-corner-all ui-helper-reset" role="listbox"><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="إختيار" tabindex="-1" role="option">إختيار</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة طنجة تطوان الحسيمة" tabindex="-1" role="option"> جهة طنجة تطوان الحسيمة</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة الشرق" tabindex="-1" role="option"> جهة الشرق</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="جهة فاس مكناس" tabindex="-1" role="option">جهة فاس مكناس</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة الرباط سلا القنيطرة" tabindex="-1" role="option"> جهة الرباط سلا القنيطرة</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة بني ملال خنيفرة" tabindex="-1" role="option"> جهة بني ملال خنيفرة</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة الدار البيضاء سطات" tabindex="-1" role="option"> جهة الدار البيضاء سطات</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة مراكش أسفي" tabindex="-1" role="option"> جهة مراكش أسفي</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="جهة درعة تافيلالت" tabindex="-1" role="option">جهة درعة تافيلالت</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="جهة سوس ماسة" tabindex="-1" role="option">جهة سوس ماسة</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة كلميم واد نون" tabindex="-1" role="option"> جهة كلميم واد نون</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة العيون الساقية الحمراء" tabindex="-1" role="option"> جهة العيون الساقية الحمراء</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label=" جهة الداخلة وادي الذهب" tabindex="-1" role="option"> جهة الداخلة وادي الذهب</li></ul></div></div></div><script id="regionSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_regionSelectId",{id:"regionSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains",behaviors:{valueChange:function(ext,event) {PrimeFaces.ab({s:"regionSelectId",e:"valueChange",f:"myForm",p:"regionSelectId",u:"localiteSelectId"},ext);}}});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4"><span class="required">مكان العمل</span></div><div class="ui-panelgrid-cell ui-grid-col-8"><div id="localiteSelectId" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="localiteSelectId_focus" name="localiteSelectId_focus" type="text" autocomplete="off" aria-expanded="false" aria-required="true"></div><div class="ui-helper-hidden-accessible"><select id="localiteSelectId_input" name="localiteSelectId_input" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-escape="true">إختيار</option></select></div><label id="localiteSelectId_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="localiteSelectId_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="localiteSelectId_filter" name="localiteSelectId_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><table class="ui-selectonemenu-items ui-selectonemenu-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-selectonemenu-item ui-selectonemenu-row ui-widget-content" data-label="إختيار"><td colspan="2">إختيار</td></tr></tbody></table></div></div></div><script id="localiteSelectId_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_localiteSelectId",{id:"localiteSelectId",appendTo:"@(body)",filter:true,filterMatchMode:"contains"});});</script></div></div></div></div></div></div><script id="situationAdministrativeSortieId_s" type="text/javascript">$(function(){PrimeFaces.cw("Panel","widget_situationAdministrativeSortieId",{id:"situationAdministrativeSortieId"});});</script></td>
+</tr>
+<tr>
+<td><div id="mutuelleAllocationFamilialePanel" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="margin-top:20px" data-widget="widget_mutuelleAllocationFamilialePanel"><div id="mutuelleAllocationFamilialePanel_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">التعاضدية و التعويضات العائلية</span></div><div id="mutuelleAllocationFamilialePanel_content" class="ui-panel-content ui-widget-content"><div id="j_idt89" class="ui-panelgrid ui-widget ui-panelgrid-blank"><div id="j_idt89_content" class="ui-panelgrid-content ui-widget-content ui-grid ui-grid-responsive"><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4">التعاضدية</div><div class="ui-panelgrid-cell ui-grid-col-4"><div id="j_idt91" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" role="combobox" aria-haspopup="true" aria-expanded="false"><div class="ui-helper-hidden-accessible"><input id="j_idt91_focus" name="j_idt91_focus" type="text" autocomplete="off" aria-expanded="false"></div><div class="ui-helper-hidden-accessible"><select id="j_idt91_input" name="j_idt91_input" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-escape="true">لا شيء</option><option value="11" data-escape="true">التعاضدية العامة لموظفي الإدارات العمومية</option><option value="13" data-escape="true">التعاضدية العامة للتربية الوطنية</option><option value="14" data-escape="true">تعاضدية الجمارك و الضرائب غير المباشرة</option><option value="15" data-escape="true">الجمعية الأخوية للتعاون المشترك وميتم موظفي الأمن الوطني</option><option value="16" data-escape="true">تعاضدية القوات المساعدة</option><option value="12" data-escape="true">الهيآت التعاضدية لموظفي الإدارات و المصالح العمومية بالمغرب</option></select></div><label id="j_idt91_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="j_idt91_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="j_idt91_filter" name="j_idt91_filter" type="text" autocomplete="off"><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><ul id="j_idt91_items" class="ui-selectonemenu-items ui-selectonemenu-list ui-widget-content ui-widget ui-corner-all ui-helper-reset" role="listbox"><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="لا شيء" tabindex="-1" role="option">لا شيء</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="التعاضدية العامة لموظفي الإدارات العمومية" tabindex="-1" role="option">التعاضدية العامة لموظفي الإدارات العمومية</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="التعاضدية العامة للتربية الوطنية" tabindex="-1" role="option">التعاضدية العامة للتربية الوطنية</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="تعاضدية الجمارك و الضرائب غير المباشرة" tabindex="-1" role="option">تعاضدية الجمارك و الضرائب غير المباشرة</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="الجمعية الأخوية للتعاون المشترك وميتم موظفي الأمن الوطني" tabindex="-1" role="option">الجمعية الأخوية للتعاون المشترك وميتم موظفي الأمن الوطني</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="تعاضدية القوات المساعدة" tabindex="-1" role="option">تعاضدية القوات المساعدة</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="الهيآت التعاضدية لموظفي الإدارات و المصالح العمومية بالمغرب" tabindex="-1" role="option">الهيآت التعاضدية لموظفي الإدارات و المصالح العمومية بالمغرب</li></ul></div></div></div><script id="j_idt91_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_j_idt91",{id:"j_idt91",appendTo:"@(body)",filter:true,filterMatchMode:"contains"});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4">متزوج</div><div class="ui-panelgrid-cell ui-grid-col-4"><table id="j_idt95" role="presentation" class="ui-selectoneradio ui-widget" aria-required="true"><tr><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="j_idt95:0" name="j_idt95" type="radio" value="true"></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default"><span class="ui-radiobutton-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="j_idt95:0">نعم</label></td><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="j_idt95:1" name="j_idt95" type="radio" value="false" checked="checked"></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active"><span class="ui-radiobutton-icon ui-icon ui-icon-bullet ui-c"></span></div></div><label for="j_idt95:1">لا</label></td></tr></table><script id="j_idt95_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneRadio","widget_j_idt95",{id:"j_idt95",unselectable:false});});</script></div></div><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-4">عدد الأطفال أقل من 21 سنة</div><div class="ui-panelgrid-cell ui-grid-col-4"><span id="j_idt99" class="ui-spinner ui-widget ui-corner-all"><input id="j_idt99_input" name="j_idt99_input" type="text" class="ui-spinner-input ui-inputfield ui-state-default ui-corner-all" autocomplete="off" value="0"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n ui-c"></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></span></a></span><script id="j_idt99_s" type="text/javascript">$(function(){PrimeFaces.cw("Spinner","widget_j_idt99",{id:"j_idt99",min:0.0,max:6.0});});</script></div></div></div></div></div></div><script id="mutuelleAllocationFamilialePanel_s" type="text/javascript">$(function(){PrimeFaces.cw("Panel","widget_mutuelleAllocationFamilialePanel",{id:"mutuelleAllocationFamilialePanel"});});</script></td>
+</tr>
+</tbody>
+</table>
+</div><div id="salairePanelId_footer" class="ui-panel-footer ui-widget-content"><div id="j_idt184" class="ui-panelgrid ui-widget ui-panelgrid-blank"><div id="j_idt184_content" class="ui-panelgrid-content ui-widget-content ui-grid ui-grid-responsive"><div class="ui-grid-row"><div class="ui-panelgrid-cell ui-grid-col-3"></div><div class="ui-panelgrid-cell ui-grid-col-6"></div><div class="ui-panelgrid-cell ui-grid-col-3"><button id="j_idt188" name="j_idt188" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt188&quot;,f:&quot;myForm&quot;,p:&quot;salairePanelId&quot;,u:&quot;salairePanelId steps&quot;});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c fa fa-arrow-right"></span><span class="ui-button-text ui-c">إحتساب</span></button><script id="j_idt188_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt188",{id:"j_idt188"});});</script></div></div></div></div></div></div><script id="salairePanelId_s" type="text/javascript">$(function(){PrimeFaces.cw("Panel","widget_salairePanelId",{id:"salairePanelId"});});</script>
+	</div><div id="j_idt192" class="ui-outputpanel ui-widget"><div id="msgError" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-dialog-rtl" style="z-index: 2000 !important;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="msgError_title" class="ui-dialog-title">رسالة</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="msgError_content"><table cellpadding="5" cellspacing="5">
+<tbody>
+<tr>
+<td><div id="j_idt195" class="ui-messages ui-widget" aria-live="polite"></div></td>
+</tr>
+</tbody>
+</table>
+<img id="j_idt196" height="20" alt="" src="/salaire/javax.faces.resource/spacer/dot_clear.gif.mmsp?ln=primefaces&amp;v=7.0">
+
+			<div align="center"><button id="j_idt198" name="j_idt198" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('msgErrorVar').hide()" type="button"><span class="ui-button-text ui-c">رجوع</span></button><script id="j_idt198_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt198",{id:"j_idt198"});});</script>
+			</div></div></div><script id="msgError_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","msgErrorVar",{id:"msgError",modal:true,minWidth:500,showEffect:"fold"});});</script></div><span id="msgInfo"></span><script id="msgInfo_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_msgInfo",{id:"msgInfo",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+
+			</div>
+			<!-- inclusion du pied du template  -->
+
+	<section class="footer">
+		<div class="container">
+			<div class="footer-menu-all-rights">© كل الحقوق محفوظة 2022 M.T.N.R.A
+			</div>
+		</div>
+	</section><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-536463570426212654:-791879115722965263" autocomplete="off">
+</form>
+
+		<style type="text/css">
+.value {
+	width: 1000px;
+}
+</style><div id="j_idt205" class="ui-outputpanel ui-widget">
+
+	<style>
+		.ui-steps .ui-steps-item {
+			float: right !important;
+			box-sizing: border-box;
+		}
+		
+		.ui-icon {
+			-moz-transform: scaleX(-1);
+			-o-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+			filter: FlipH;
+			-ms-filter: "FlipH";
+		}
+		
+		.ui-icon-check {
+			-moz-transform: scaleX(1);
+			-o-transform: scaleX(1);
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+		
+		.ui-button-icon-left {
+			right: 1.5em;
+		}
+		
+		.ui-button-icon-only .ui-icon {
+			right: 50%;
+			margin-right: -8px;
+		}
+		
+		/* p selectonemenu RTL*/
+		.ui-selectonemenu {
+			-moz-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			-o-transform: scaleX(-1);
+			-ms-transform: scaleX(-1);
+			transform: scaleX(-1);
+		}
+		
+		.ui-selectonemenu .ui-selectonemenu-label {
+			-moz-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			-o-transform: scaleX(-1);
+			-ms-transform: scaleX(-1);
+			transform: scaleX(-1);
+			text-align: right !important;
+		}
+		
+		.ui-selectonemenu-panel .ui-selectonemenu-list-item {
+			text-align: right !important;
+		}
+		
+		.ui-selectonemenu-panel .ui-selectonemenu-table {
+			direction: rtl;
+			overflow: hidden;
+		}
+		
+		.ui-selectonemenu-panel .ui-selectonemenu-items-wrapper {
+    		direction: rtl;
+		}
+		
+		.ui-selectonemenu-panel .ui-selectonemenu-filter-container{
+		    direction: rtl;
+		}
+		
+		.ui-selectonemenu-panel .ui-selectonemenu-filter-container .ui-icon {
+		    position: absolute;
+		    top: 10px;
+		    left: 10px;
+		    right:auto;
+		}
+		
+		.ui-datatable .ui-row-toggler {
+			transform: scale(-1, 1);
+		}
+		
+		.required {
+			background-image: url(/salaire/javax.faces.resource/general/required.png.mmsp?ln=images);
+			background-repeat: no-repeat;
+			background-position: left top;
+			padding-left: 12px;
+			white-space: nowrap;
+			padding-right: 0px;
+		}
+		
+		.tag {
+			position: absolute;
+			right: 20px !important;
+			left: auto;
+			top: 0;
+		}
+		
+		.logo {
+			position: absolute;
+			left: 20px !important;
+			right: auto;
+			top: 0;
+		}
+		
+		.ui-messages-info-icon, .ui-messages-warn-icon, .ui-messages-error-icon,
+			.ui-messages-fatal-icon, .ui-message-info-icon, .ui-message-warn-icon,
+			.ui-message-error-icon, .ui-message-fatal-icon {
+			float: right;
+		}
+		
+		.ui-messages-info-summary, .ui-messages-warn-summary,
+			.ui-messages-error-summary, .ui-messages-fatal-summary,
+			.ui-message-info-summary, .ui-message-warn-summary,
+			.ui-message-error-summary, .ui-message-fatal-summary {
+			margin-right: 10px;
+		}
+		
+		.ui-confirm-dialog-severity {
+			float: right;
+		}
+		
+		.ui-datepicker .ui-datepicker-next {
+			right: auto !important;
+		}
+		
+		.ui-datepicker-next-hover {
+			left: 1px
+		}
+		
+		.ui-datepicker .ui-icon-circle-triangle-e {
+			background: url(/salaire/javax.faces.resource/images/icons_16.png.mmsp?ln=primefaces-omega) 0
+				-128px no-repeat !important;
+		}
+		
+		.ui-datepicker .ui-icon-circle-triangle-w {
+			background: url(/salaire/javax.faces.resource/images/icons_16.png.mmsp?ln=primefaces-omega) 0
+				-112px no-repeat !important;
+		}
+		
+		.explicationSimulation {
+			color: #1DA3FF !important;
+			font-size: 14.5px !important;
+			line-height: 25px !important;
+			font-family: 'Comic Sans MS', cursive, sans-serif !important
+		}
+		
+		.TopMenu {
+			position: absolute;
+			top: 3px;
+			right: 320px;
+			color: #0069B1;
+			font-size: 10px;
+			width: 500px;
+		}
+		
+		.TopMenu span {
+			margin: 0 3px;
+		}
+		
+		.TopMenu a {
+			font-size: 10px;
+			color: #0069B1;
+			text-decoration: none;
+		}
+		
+		.TopMenu a:hover {
+			color: #A5BAC8;
+			text-decoration: none;
+		}
+		
+		.cadre {
+			margin-right: 5% !important;
+		}
+		
+		@media ( max-width : 960px) {
+			.TopMenu {
+				right: 20% !important;
+				width: 500px !important;
+			}
+			.logo {
+				right: 20px;
+				width: 48px;
+				height: 48px;
+			}
+			
+		}
+	</style></div>
+
+	<div class="progress-box"><div id="j_idt209" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-dialog-rtl"><div class="ui-dialog-content ui-widget-content" id="j_idt209_content"><table cellpadding="5" cellspacing="5">
+<tbody>
+<tr>
+<td>
+						<i class="fa fa-refresh fa-spin fa-3x fa-fw" style="font-size: 25px !important;"></i></td>
+<td><span style="padding-top: 20px;">المرجو الانتظار...</span></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="j_idt209_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","panelWaitVar",{id:"j_idt209",modal:true});});</script><div id="j_idt208"></div><script id="j_idt208_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt208",{id:"j_idt208",start:function(){PF('panelWaitVar').show();},error:function(){PF('panelWaitVar').hide();},complete:function(){PF('panelWaitVar').hide();}});});</script>
+
+	</div>
+
+			<!-- &lt;p:ajaxStatus style="width:32px;height:32px;display:block;position:fixed;right:0;top:4px;"&gt;
+				&lt;f:facet name="start"&gt;
+					&lt;p:graphicImage value="/resources/images/general/loading.gif" style=" width: 26px; height: 26px; " /&gt;
+				&lt;/f:facet&gt;
+
+				&lt;f:facet name="complete"&gt;
+					&lt;h:outputText value="" /&gt;
+				&lt;/f:facet&gt;
+			&lt;/p:ajaxStatus&gt; --><script type="text/javascript">OmniFaces.DeferredScript.add('/salaire/javax.faces.resource/core.js.mmsp?ln=primefaces&v=7.0',function() {DeferredPrimeFaces.begin()});</script><script type="text/javascript">OmniFaces.DeferredScript.add('/salaire/javax.faces.resource/components.js.mmsp?ln=primefaces&v=7.0');</script><script type="text/javascript">OmniFaces.DeferredScript.add('/salaire/javax.faces.resource/jquery/jquery-plugins.js.mmsp?ln=primefaces&v=7.0');</script><script type="text/javascript">OmniFaces.DeferredScript.add('/salaire/javax.faces.resource/inputnumber/inputnumber.js.mmsp?ln=primefaces&v=7.0',null,function() {DeferredPrimeFaces.apply()});</script><script type="text/javascript">OmniFaces.DeferredScript.add('/salaire/javax.faces.resource/scripts/default.js.mmsp');</script><script type="text/javascript">OmniFaces.DeferredScript.add('/salaire/javax.faces.resource/scripts/primefaces.js.mmsp');</script></body></html>

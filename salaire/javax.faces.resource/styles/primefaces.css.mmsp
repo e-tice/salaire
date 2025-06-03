@@ -1,0 +1,209 @@
+@CHARSET "ISO-8859-1";
+
+.ui-widget {
+  font-family: poppins  !important;
+}
+
+.ui-panel-titlebar{
+	background: #0a2f66;
+    color: #fff;
+}
+
+.dataTableRowBleu {
+	background-color: blue !important;
+	font-weight: bold;
+}
+
+.dataTableRowVert {
+	background-color: green !important;
+	font-weight: bold;
+}
+
+/* Ajuster l'hauteur des boutons */
+.ui-button-text-icon-left .ui-button-text {
+    padding: 0.6em 3.1em 0.6em 3.1em !important;
+}
+
+/* Diminuer l'hauteur de menubar */
+.ui-menu {
+	padding: 0em !important;
+}
+
+/* Augmenter l'opacite des champs desactives */
+.ui-state-disabled, .ui-widget-content .ui-state-disabled,
+	.ui-widget-header .ui-state-disabled {
+	opacity: 0.7 !important;
+	color: black !important;
+}
+
+/* Pousser l'icon de tri dans les colonnes de datatable */
+.ui-datatable .ui-sortable-column-icon {
+	margin-left: -4px !important;
+}
+
+.ui-datatable .ui-sortable-column div.ui-dt-c {
+	padding-right: 10px !important;
+}
+
+/* Ajuster le menu bouton dans la barre d'outils */
+.ui-menubutton .ui-button {
+	margin-top: 2px !important;
+}
+
+/* Ajuster la largeur des menus pour s'adaopter au text */
+.ui-menu .ui-menu-parent .ui-menu-child {
+	width: 165px !important;
+}
+
+.ui-helper-reset {
+	border: inherit !important;
+}
+
+.ui-datatable .ui-column-filter {
+	width: 93% !important;
+}
+
+.ui-autocomplete input {
+	width: 80% !important;
+}
+
+/* diminuer le spacing du panelgrid */
+.ui-panelgrid td {
+	padding: 3px 5px !important;
+}
+
+/*.ui-inputfield {
+	padding: 3px !important;
+}*/
+.ui-button {
+	margin-right: 0.2em !important;
+}
+
+/* Definir un rendu des cadres plus fine */
+.ui-corner-all {
+	-webkit-border-radius: 4px !important;
+}
+
+/* Rendre le font de popup couvre l'ensemble de page meme avec un scrollbar */
+.ui-widget-overlay {
+	position: fixed !important;
+}
+
+/* Adapter le titre du fieldset pour qu'il soit afficher en totalite dans le 1er ligne */
+.ui-fieldset-toggleable .ui-fieldset-legend {
+	white-space: nowrap !important;
+}
+
+.ui-spinner-button {
+	right: -20px !important;
+}
+
+.ui-spinner .ui-spinner-input {
+	padding-right: 25px !important;
+}
+
+.ui-selectonemenu-panel .ui-selectonemenu-filter-container {
+	display: inherit !important;
+}
+/* La mise en forme du sous menu steps (1,2,3,4 ...) */
+.ui-steps .ui-steps-item {
+	width: 24% !important;
+	margin-top: 15px !important;
+	margin-bottom: 10px !important;
+}
+
+.ui-state-highlight {
+	text-shadow: none !important;
+}
+
+.ui-steps.custom {
+	margin-bottom: 30px;
+}
+
+.ui-steps .ui-state-highlight span {
+	color: #2399e5;
+}
+
+.ui-steps.custom .ui-steps-item .ui-menuitem-link {
+	height: 10px;
+	padding: 0 1em;
+}
+
+.ui-steps.custom .ui-steps-item .ui-steps-number {
+	background-color: #0081c2 !important;
+	color: #FFFFFF !important;
+	display: inline-block !important;
+	width: 30px !important;
+	border-radius: 10px !important;
+	margin-top: -10px !important;
+	margin-bottom: 10px !important;
+}
+
+.ui-steps.custom .ui-steps-item .ui-steps-number {
+	background-color: #0092C2;
+	color: #FFF;
+	display: inline-block;
+	width: 30px;
+	border-radius: 10px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.ui-steps.custom .ui-steps-number {
+	font-size: 200% !important;
+	display: block !important;
+}
+
+.ui-steps .ui-steps-title {
+	display: block;
+	white-space: normal !important;
+}
+/*.ui-steps.custom .ui-steps-title {
+    margin-left: 10px!important;
+    display: block!important;
+    white-space: nowrap!important;
+    color:#0092C2!important;
+}*/
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a,
+	.ui-widget-header .ui-state-highlight a {
+	color: rgb(182, 168, 19) !important;
+}
+
+/* Fin de la mise en form des steps */
+
+/* Tab View  */
+.ui-tabs .ui-tabs-nav.ui-widget-header {
+	background: rgba(0, 0, 0, 0.03) none repeat scroll 0% 0% !important;
+	border: 1px solid #cccccc !important;
+	border-radius: 7px 7px 0px 0px !important;
+}
+
+/* Fin tabView */
+
+button, input[type="reset"], input[type="submit"], input[type="button"]
+	{
+	cursor: pointer;
+}
+
+.ui-radiobutton-icon {
+    margin-left: 0px !important;
+    margin-top: -1px !important;
+}
+
+button.ui-button.ui-state-default {
+	border: 0px!important;
+  	border-radius: 13px !important;
+	background: var(--bg-color, #f1ba3f) !important;
+	color:var(--text-color, #0a2f66) !important;
+    padding: 0px 0px !important;
+}
+
+button.ui-button.ui-state-default:hover {
+	 color: var(--bg-color, #f1ba3f) !important;
+	 background-color: var(--text-color, #0a2f66) !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #156090;
+    background: #0976bc !important;
+}

@@ -1,0 +1,353 @@
+@CHARSET "ISO-8859-1";
+
+
+/* l'image de fond de l'entete */
+.head_corps {
+	background: url(/salaire/javax.faces.resource/general/bg_menu.gif.mmsp?ln=images) repeat-x;
+}
+
+/* l'image de fond de l'entete */
+.menu_top {
+	background: url(/salaire/javax.faces.resource/general/bg_header.jpg.mmsp?ln=images);
+}
+
+.TopMenu {
+    background-color: var(--bg-color, #f1ba3f);
+    height: 55px;
+}
+
+.TopMenu a {
+	font: 10px Tahoma, Arial, Helvetica, Sans-serif !important;
+	font-weight: normal !important;
+	color: #0069B1;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.TopMenu a:hover {
+	color: #A5BAC8;
+	text-decoration: none;
+}
+
+.TopMenu span {
+	margin: 0 3px;
+}
+
+/* l'image fond du pied centrale */
+.footer_corps {
+	background: url(/salaire/javax.faces.resource/general/footer_corps.png.mmsp?ln=images)
+		repeat-x;
+}
+
+/* l'image fond du pied droite */
+.footer_right {
+	background: url(/salaire/javax.faces.resource/general/footer_right.png.mmsp?ln=images) 100% 0
+		no-repeat;
+}
+
+/* l'image fond du pied gauche */
+.footer_left {
+	background: url(/salaire/javax.faces.resource/general/footer_left.png.mmsp?ln=images)
+		no-repeat;
+}
+
+/* couleur du font de copyright */
+.copyright {
+	color: white;
+}
+
+/* style du conteneur de l'annimation de progression ajax 
+.progress-box {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	background: #f0f0f0;
+	height: 22px;
+	vertical-align: middle;
+}
+*/
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield
+	{
+	background: white;
+	-moz-box-shadow: inset 0 0px 0px #8f8f8f;
+	-webkit-box-shadow: inset 0 1px 1px #8F8F8F;
+	box-shadow: inset 0 1px 1px #8F8F8F;
+}
+
+/** toolbar icons **/
+.icon-32-save {
+	background-image: url();
+}
+
+.icon-32-update {
+	background-image:
+		url();
+}
+
+.icon-32-cancel {
+	background-image:
+		url();
+}
+
+.icon-32-print {
+	background-image: url();
+}
+
+.icon-32-new {
+	background-image: url();
+}
+
+.icon-32-validate {
+	background-image:
+		url();
+}
+
+.icon-32-list {
+	background-image: url();
+}
+
+.icon-32-bonLivraison {
+	background-image:
+		url();
+}
+
+/** title icons **/
+.icon-48-parametre {
+	background-image:
+		url();
+}
+
+.icon-48-emplissage {
+	background-image:
+		url();
+}
+
+.icon-48-livraison {
+	background-image:
+		url();
+}
+
+.icon-48-reporting {
+	background-image:
+		url();
+}
+
+.icon-48-reception {
+	background-image:
+		url();
+}
+
+.icon-48-receptionNavire {
+	background-image:
+		url();
+}
+
+/* style du menu general */
+.icon-64-paca {
+	height: 70px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-planAudit {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-rapportAudit {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-rapportCloture {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-ecart {
+	height: 70px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-origineList {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-constatList {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-planActionList {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-actionList {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-demandeProposition {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-parametrageGeneral {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-parametrageUtilisateur {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-64-parametrageProfil {
+	height: 70px;
+	background-image:
+		url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ui-menu.ui-menubar {
+	padding-right: 20px !important;
+	padding-left: 10px !important;
+	background-color: #ffffff !important;
+	border: 1px solid #ffffff !important;
+	background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+	/* background-repeat: repeat-x; */
+	/* border: 1px solid #d4d4d4; */
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+	text-shadow: none !important;
+}
+
+.error-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.error-actions {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.error-actions .btn {
+	margin-right: 10px;
+}
+
+.interruption {
+	background-color: #FFB5B5 !important;
+	background-image: none !important;
+	color: #000000 !important;
+}
+
+.result {
+	color: #0067ce !important;
+}
+
+.resultSalaire {
+	color: #36b09c !important;
+    font-weight: bold;
+}
+
+.indication {
+	color: #b03636 !important;
+	line-height: 25px !important;
+}
+
+.msgInformatif {
+	color: #36b09c !important;
+	line-height: 25px !important;
+}
+
+.tooltipContent {
+	color: #337ab7 !important;
+	font-size: 11.5px !important;
+	line-height: 20px !important;
+	font-family: 'Comic Sans MS', cursive, sans-serif !important
+}
+
+.tooltipMessage {
+	color: #b03636 !important;
+	font-size: 11.5px !important;
+	line-height: 20px !important;
+	font-family: 'Comic Sans MS', cursive, sans-serif !important
+}
+
+.intervalMessage {
+	color: #006699 !important;
+	font-size: 12.5px !important;
+	line-height: 25px !important;
+	font-family: 'Comic Sans MS', cursive, sans-serif !important
+}
+
+.total {
+	background-color: aliceblue !important;
+}
+
+.ui-selectonemenu {
+	min-width: auto !important;
+}
+
+.explicationSimulation {
+	color: #1DA3FF !important;
+	font-size: 12.5px !important;
+	line-height: 25px !important;
+	font-family: 'Comic Sans MS', cursive, sans-serif !important
+}
+
+#motifPanelGrid, #donneesPersonnellesPanel, #dateRadiationPanel,
+	#situationAdministrativeSortieId, #mutuelleAllocationFamilialePanel {
+	max-width: 82vw !important;
+}
+
+#calculSalaireReferencePanel {
+	max-width: 82vw !important;
+}
+
+/* afficher un * en rouge devant les champs obligatoires */
+.required {
+	background-image: url(/salaire/javax.faces.resource/general/required.png.mmsp?ln=images);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-right: 10px;
+	white-space: nowrap;
+}

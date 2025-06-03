@@ -1,0 +1,23 @@
+/* FONTS 
+
+/*@font-face {
+	font-family: poppins;
+	src: url(/salaire/javax.faces.resource/Jsc-Regular.woff.mmsp?ln=fonts);
+}
+
+@font-face {
+	font-family: poppins-bold;
+	src: url(/salaire/javax.faces.resource/Jsc-Bold.woff.mmsp?ln=fonts);
+}
+*/
+
+@font-face {
+	font-family: poppins;
+	src: url(/salaire/javax.faces.resource/Tajawal-Regular.ttf.mmsp?ln=fonts);
+}
+
+@font-face {
+	font-family: poppins-bold;
+	src: url(/salaire/javax.faces.resource/Tajawal-Bold.ttf.mmsp?ln=fonts);
+}
+/*END FONTS */
